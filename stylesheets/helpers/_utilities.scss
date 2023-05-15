@@ -1,0 +1,100 @@
+// 共用項目
+//* 文字類＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+// 文字大小
+.font-size {
+    &-sm {
+        font-size: $font-size-sm; //14px
+    }
+
+    &-md {
+        font-size: $font-size-base; //16px
+    }
+
+    &-lg {
+        font-size: $font-size-lg; //20px
+    }
+
+    &-title-sm {
+        font-size: 2rem; //32px
+    }
+    &-title-md {
+        font-size: 3rem; //48px
+    }
+    &-title-lg {
+        font-size: 5rem; //80px
+    }
+    &-title-xl {
+        font-size: 7.5rem; //120px
+    }
+    
+}
+
+// 字重
+.font-weight {
+
+    &-md {
+        font-weight: $font-weight-normal; //400 regular
+    }
+
+    &-lg {
+        font-weight: $font-weight-bold; //700 bold
+    }
+
+    &-xl {
+        font-weight:900; //900
+    }
+}
+
+// border-radius
+.border-radius{
+    &-xxxl{
+        border-radius:160px;
+    }
+}
+
+.overflow-hidden{
+    overflow: hidden;
+}
+
+.blackLink{
+    color:$black;
+    &:hover{
+        color:$primary;
+    }
+}
+
+
+// 元件
+.whiteCardWrap{
+    .card{
+        border:1px solid $gray-200;
+        border-radius: 16px ;
+    }
+    .imgWrap{
+        width: 100%;
+        overflow: hidden;
+        transform: rotate(0deg);
+        border-radius: 16px 16px 0 0;
+    }
+    .card-img-top{
+        transition : all 0.3s;
+    &:hover{
+        transform : scale( 1.05 );
+        transition : 1s;
+    }
+    }
+    .card-body{
+        padding: 0;
+    }
+    .card-title{
+        font-size:$font-size-lg;
+        font-weight: 900;
+        padding: 20px 32px 12px 32px;
+        margin-bottom: 0;
+    }
+    .card-text{
+        padding: 0px 32px 20px 32px;
+        font-size:$font-size-sm;
+        color:$gray-800;
+    }
+}
