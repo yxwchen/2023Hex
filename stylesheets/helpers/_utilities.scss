@@ -101,4 +101,9 @@
         font-size:$font-size-sm;
         color:$gray-800;
     }
+    .card-footer{
+        padding: 0;
+        border-top:0;
+        background-color:transparent;
+    }
 }

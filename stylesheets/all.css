@@ -14913,4 +14913,9 @@ p, h5, .h5 {
   padding: 0px 32px 20px 32px;
   font-size: 0.875rem;
   color: #525252;
+}
+.whiteCardWrap .card-footer {
+  padding: 0;
+  border-top: 0;
+  background-color: transparent;
 }/*# sourceMappingURL=all.css.map */
